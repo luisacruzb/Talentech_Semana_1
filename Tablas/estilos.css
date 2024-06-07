@@ -1,0 +1,11 @@
+table {
+background-color: aquamarine; 
+width: 70% solid red; 
+border: 2px;
+td {
+align-items: center;
+}
+}
+p {
+    color: blueviolet;
+}

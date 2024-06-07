@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h3>Mi primer formulario</h3>
+    <!-- placeholder es un atributo para que aparezca un texto en transparencia para indicar que se debe diligenciar -->
+    <!-- label: nota informativa -->
+    <form action="">
+        <label for="Ingresa tu nombre"></label><br>
+        <input type="text"><br>
+        <label for=""></label>
+        <div>
+            <fieldset>
+                <legend>Género</legend>
+                <p>Selecciona la opción que te corresponda.</p>
+                <label for="idgenero_masculino">masculino</label>
+                <input type="radio" name="genero" id="idgenero_masculino" value="masculino">
+                <label for="idgenero_femenino">femenino</label>
+                <input type="radio" name="genero" id="idgenero_femenino" value="femenino">
+            </fieldset>
+        <input type="checkbox" name="hobbie" readonly="readonly"><br><br>
+        <input type="password" name="clave" id="idclave"><br><br>
+        <input type="submit"><br><br>
+        <input type="file" name="archivo" id="idarchivo"><br><br>
+        <label for="email">Digita tu email</label><br><br>
+        <input type="email" name="email">   <br><br>
+        <input type="search" id="buscar" name="buscar" placeholder="Buscar..."><br><br>
+        <input type="submit" value="Ir"><br><br>
+        <input type="url" placeholder="Url"><br><br>
+        <input type="tel" placeholder="Teléfono"><br><br>
+        Califique el desempeño 1
+        <input type="range" min="1" max="10" step="2" value=1> <br><br>
+        <input type="color" name="favcolor"><br><br>
+        <input type="date" name="fecha_nacimiento"><br><br>
+        <select name="ingreso" id="idingreso"><br><br> 
+            <option value="0">-Selecciona la ciudad de origen-</option>
+            <option value="1">Medellín</option>
+            <option value="2">Cali</option>
+            <option value="3">Pacho</option>
+            </select> <br><br>
+            <textarea name="observacion" cols="100" rows="10">
+    Aquí escribimos nuestro texto extenso que puede ocupar múltiples líneas, el cual se verá muy bien en este tipo de componente!
+                </textarea>
+        </div>
+    </form>
+</body>
+</html>
