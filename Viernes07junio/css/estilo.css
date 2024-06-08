@@ -1,0 +1,43 @@
+/* *{
+    margin:0;
+    padding: 0;
+} */
+nav {
+    background: #effca5;
+    color: lightgray;
+    padding: 1em;
+    font-size: 30px;
+    text-align: center;
+}
+nav ul{
+   list-style: none; 
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+}
+nav li{
+    margin-right: 20px;
+}
+nav a{
+        color:blueviolet;
+        text-decoration: none;
+}
+nav a:hover{
+    color: rgb(173, 97, 3);
+}
+nav ul li:hover{
+    background-color: burlywood;
+}
+h1 {
+    color:blueviolet;
+    font-size: 45px;
+    text-align: center;
+}
+p{
+    color: darkmagenta;
+    font-size: 30px;
+}
+footer{
+    background: skyblue;
+}
