@@ -1,0 +1,11 @@
+.fondo{
+    background-image: url(../images/maíz.png);
+    background-repeat: repeat-x;
+    background-size: 62px 60px;
+    background-position: center;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

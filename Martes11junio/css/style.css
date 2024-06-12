@@ -1,0 +1,18 @@
+#caja1{
+    width: 100px;
+    height: 70px;
+    display:  table-cell;
+    background: aquamarine;
+}
+#caja2{
+width: 150px;
+height: 100px;
+display:  table-cell;
+background: pink;
+}
+#caja3{
+    width: 130px;
+    height: 90px;
+    display:  table-cell;
+    background: orange;
+}
